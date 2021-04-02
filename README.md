@@ -51,7 +51,7 @@ A more detailed look at the clusters show:
 - **Class 0:** with 232 records, contains the typical “well-know” tradable currencies, like Bitcoin (BTC #1), Ethereum (ETH #2), LiteCoin (LTC #9), Monero (XMR ), ZCash (ZEC), DigiByte (DGB), Argentum (ARG), among others.<br />
 ![Class_0](https://user-images.githubusercontent.com/73545138/113385722-ad5dac80-9356-11eb-883e-22ead5668999.PNG)
 
-- **Class 1**<br /> with 239 records
+- **Class 1** with 239 records: <br />
 ![Class_1](https://user-images.githubusercontent.com/73545138/113385726-af277000-9356-11eb-8be0-0fa1883a61aa.PNG)
 
 - **Class 2** there is only *one* record: BitTorrent (BTT).  BitTorrent is an important component on Cryptocurrencies.  However, it stands alone and it has a very large z-score of 21.59 (please look at the code for the z-score).<br />
