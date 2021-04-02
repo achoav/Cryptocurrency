@@ -70,9 +70,9 @@ Plotting the scatter plot from two cryptocurrency features directly does not eff
 We have identified the classification of 532 cryptocurrencies based on similarities of their features.
 
 Particularities of each group need to be analyzed to determine their performance and potential interest for the investment bank's clients. 
-I would strongly suggest that we further investigate the CoinShares MarketCap to further identify which cryptocurrencies have liquidity and are relevant to investors.  Based on our analysis, Class “0” has the well-known crypto currencies like BTC (BitCoin), Ethereum (ETH), LiteCoin (LCC).  
+I would strongly suggest that we further investigate the CoinShares MarketCap to further identify which cryptocurrencies have liquidity and are relevant to investors.  Looking at the currencies class, we found out that Class “0” has the well-known crypto currencies like BTC (BitCoin), Ethereum (ETH), LiteCoin (LCC), among others.
 
-Further data is deemed necessary to determine if it is suitable to investment based on:
+However, we would caution that further data is deemed necessary to determine if it is suitable to investment based on:
 - Market Cap
 - Trading Volume
 - Circulating Supply
