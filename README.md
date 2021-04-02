@@ -48,17 +48,16 @@ We can identify the outliers like the unique cryptocurrency in the class #2.
 A more detailed look at the clusters show:
 - Most of the cryptocurrencies are part of Class #0 and #1.
 
-![image alt <](/Images/class_2_BTT.PNG)<br />
-- **Class 0:** are the typical “well-know” tradable currencies, like Bitcoin (BTC #1), Ethereum (ETH #2), LiteCoin (LTC #9), Monero (XMR ), ZCash (ZEC), DigiByte (DGB), Argentum (ARG), among others.
-![image alt <](/Images/class_0.PNG)<br />
-- **Class 1**
-![image alt <](/Images/class_1.PNG)<br />
-- **Class 2** there is only one currency: BitTorrent (BTT).  BitTorrent is an important component on Cryptocurrencies.  However, it stands alone and it has a very large z-score of 21.59 (please look at the code for the z-score).
-- **Class 3:** there are only four cryptocurrencies: POA(# 666), AAC (#1230), BBP (# 1589) and  WAVES (# 80)
-![image alt <](/Images/class_3.PNG)<br />
+- **Class 0:** are the typical “well-know” tradable currencies, like Bitcoin (BTC #1), Ethereum (ETH #2), LiteCoin (LTC #9), Monero (XMR ), ZCash (ZEC), DigiByte (DGB), Argentum (ARG), among others.<br />
+![](/Images/Class_0.PNG)<br />
+- **Class 1**<br />
+![](/Images/Class_1.PNG)<br />
+- **Class 2** there is only one currency: BitTorrent (BTT).  BitTorrent is an important component on Cryptocurrencies.  However, it stands alone and it has a very large z-score of 21.59 (please look at the code for the z-score).<br />
+- **Class 3:** there are only four cryptocurrencies: POA(# 666), AAC (#1230), BBP (# 1589) and  WAVES (# 80)<br />
+![](/Images/Class_3.PNG)<br />
 
-## 2D-Scatter plot with TotalCoinMined vs TotalCoinSupply
-![image alt <](/Images/box_plot.PNG)<br />
+## 2D-Scatter plot with TotalCoinMined vs TotalCoinSupply <br />
+![image alt <](/Images/box_plot.png)<br />
 
 Plotting the scatter plot from two cryptocurrency features directly does not efficiently segregate the different classes. Then using the PCA algorithm is the right method for better visualizations.
 
