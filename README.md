@@ -21,7 +21,7 @@ Following the preprocessing and cleaning phase we have a total of 532 tradable c
 As we don't know what the output of the analysis would be so we are using unsupervised machine learning to identify clusters of the cryptocurrencies.
 
 ## K-Means Elbow Curve
-
+![image alt <](/Images/bokeh_plot1_elbow.png)<br />
 We produced the elbow curve below using the K-Means method iterating on k values from 1 to 10.
 
 The best k value appears to be 4 so we would conclude on an output of 4 clusters to categorize the cryptocurrencies.
@@ -29,12 +29,12 @@ The best k value appears to be 4 so we would conclude on an output of 4 clusters
 
 # Visualizing Cryptocurrencies Results
 ## 3D-Scatter plot with clusters
-
+![image alt <](/Images/scatter.png)<br />
 This 3-D scatter plot was obtained using the PCA algorithm to reduce the cryptocurrencies dimensions to three principal components.
 
 
 ## 2D-Scatter plot with clusters
-
+![image alt <](/Images/scatter_by_class.png)<br />
 This 2-D scatter plot was obtained using the PCA algorithm to reduce the cryptocurrencies dimensions to two principal components.
 
 Both these scatter plots show the distribution and the four clusters of cryptocurrencies.
@@ -42,15 +42,18 @@ We can identify the outliers like the unique cryptocurrency in the class #2.
 
 
 ## Tradable Cryptocurrencies Table
+![image alt <](/Images/tradable_currencies.PNG)<br />
 
-Most of the cryptocurrencies are part of class #0 and #1.
-The snapshot above shows that BitTorrent is the only cryptocurrency in **Class #2**.  BitTorrent is an important component on Cryptocurrencies.  It stands alone and it has a very large z-score of 21.59.
+
 A more detailed look at the clusters show:
-**Class 0:** are the typical “well-know” tradable currencies, like Bitcoin (BTC #1), Ethereum (ETH #2), LiteCoin (LTC #9), Monero (XMR ), ZCash (ZEC), DigiByte (DGB), Argentum (ARG), among others.
-**Class 3:** there are only four cryptocurrencies: POA(# 666), AAC (#1230), BBP (# 1589) and  WAVES (# 80)
+- Most of the cryptocurrencies are part of **Class #0 and #1.
+- BitTorrent is the only cryptocurrency in **Class #2**.  BitTorrent is an important component on Cryptocurrencies.  It stands alone and it has a very large z-score of 21.59.
+- **Class 0:** are the typical “well-know” tradable currencies, like Bitcoin (BTC #1), Ethereum (ETH #2), LiteCoin (LTC #9), Monero (XMR ), ZCash (ZEC), DigiByte (DGB), Argentum (ARG), among others.
+- **Class 3:** there are only four cryptocurrencies: POA(# 666), AAC (#1230), BBP (# 1589) and  WAVES (# 80)
 
 
 ## 2D-Scatter plot with TotalCoinMined vs TotalCoinSupply
+![image alt <](/Images/box_plot.PNG)<br />
 
 Plotting the scatter plot from two cryptocurrency features directly does not efficiently segregate the different classes. Then using the PCA algorithm is the right method for better visualizations.
 
