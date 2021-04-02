@@ -49,12 +49,13 @@ A more detailed look at the clusters show:
 - Most of the cryptocurrencies are part of Class #0 and #1.
 
 - **Class 0:** are the typical “well-know” tradable currencies, like Bitcoin (BTC #1), Ethereum (ETH #2), LiteCoin (LTC #9), Monero (XMR ), ZCash (ZEC), DigiByte (DGB), Argentum (ARG), among others.<br />
-![](/Images/Class_0.PNG)<br />
+![](/Images/Class_0.PNG)
 - **Class 1**<br />
-![](/Images/Class_1.PNG)<br />
+![](/Images/Class_1.PNG)
 - **Class 2** there is only one currency: BitTorrent (BTT).  BitTorrent is an important component on Cryptocurrencies.  However, it stands alone and it has a very large z-score of 21.59 (please look at the code for the z-score).<br />
+![](/Images/Class_2.PNG)
 - **Class 3:** there are only four cryptocurrencies: POA(# 666), AAC (#1230), BBP (# 1589) and  WAVES (# 80)<br />
-![](/Images/Class_3.PNG)<br />
+![](/Images/Class_3.PNG)
 
 ## 2D-Scatter plot with TotalCoinMined vs TotalCoinSupply <br />
 ![image alt <](/Images/box_plot.png)<br />
